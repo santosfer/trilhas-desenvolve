@@ -1,0 +1,68 @@
+.container-elementos-main {
+    width: 1280px;
+    margin: 0 auto 64px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.conteudo-trilhas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+    background-color: var(--branco);
+    width: 400px;
+    height: 445px;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+
+.titulo-trilha {
+    margin: 32px;
+    color: var(--azul-titulo-trilhas);
+
+}
+
+.paragrafo-trilha {
+    width: 330px;
+    margin-left: 32px;
+}
+
+.link-trilha {
+    text-decoration: none;
+    color: var(--azul-titulo-principal);
+
+
+
+    width: 139px;
+    height: 50px;
+    margin: 32px;
+
+    border: 1px solid var(--azul-titulo-principal);
+    border-radius: 4px;
+
+    font-size: 14px;
+
+}
+
+.link-trilha:hover {
+    background-color: var(--azul-titulo-principal);
+    color: var(--branco);
+    transition: 0.75s;
+}
+
+#mostrar {
+    display: none;
+    color: green;
+
+    padding: 16px;
+}
+
+#passar_mouse:hover #mostrar {
+    display: block;
+}
