@@ -16,7 +16,7 @@ O programa desenvolve é um programa gratuito de formação e inclusão de talen
 <br>
 <p>Aproveitei o desafio e coloquei algo a mais. Ao passar o mouse pela trilha da qual estou cursando aparece a mensagem "Eu estou nessa trilha!".</p>
 
-<img src="img/preview.png">
+<img width="600px" height="500px" src="img/preview.png">
 
 
 ## 🚀 Tecnologias
