@@ -46,7 +46,7 @@ header {
 
 .titulo-principal {
     font-size: 24px;
-    color: var(--azul-secundario);
+    color: var(--azul-titulo-principal);
     font-weight: 400;
 }
 
@@ -68,4 +68,15 @@ header {
 
 ::placeholder {
     color: var(--cor-fonte-input);
+}
+
+@media(max-width:768px) {
+    .container-elementos-header {
+        display: flex;
+    }
+
+    .titulo-principal {
+        font-size: 16px;
+    }
+
 }

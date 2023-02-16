@@ -8,9 +8,11 @@
 }
 
 .conteudo-trilhas {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; */
+
+    position: relative;
 
 
     background-color: var(--branco);
@@ -31,22 +33,26 @@
 .paragrafo-trilha {
     width: 330px;
     margin-left: 32px;
+    margin-bottom: 16px;
 }
 
 .link-trilha {
     text-decoration: none;
     color: var(--azul-titulo-principal);
 
-
+    position: absolute;
+    text-align: center;
 
     width: 139px;
     height: 50px;
-    margin: 32px;
+    margin-left: 32px;
+    bottom: 32px;
 
     border: 1px solid var(--azul-titulo-principal);
     border-radius: 4px;
 
     font-size: 14px;
+
 
 }
 
@@ -60,9 +66,21 @@
     display: none;
     color: green;
 
+    margin-top: 64px;
+
+    text-align: center;
     padding: 16px;
 }
 
 #passar_mouse:hover #mostrar {
     display: block;
+}
+
+@media(max-width:768px) {
+    .container-elementos-main {
+        display: flex;
+        flex-direction: column;
+
+        margin: auto;
+    }
 }
