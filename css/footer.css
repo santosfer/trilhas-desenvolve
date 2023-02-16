@@ -35,3 +35,32 @@ footer {
     text-decoration: none;
     color: #000000;
 }
+
+@media(max-width:768px) {
+    footer {
+        padding: 16px;
+    }
+
+    .conteudo-rodape {
+        flex-direction: column;
+
+        width: 100%;
+        height: 100vw;
+    }
+
+    .logo-empresas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icones {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media(max-width:1279px) {
+    .conteudo-rodape {
+        width: 100vw;
+    }
+}

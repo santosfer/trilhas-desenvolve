@@ -8,19 +8,13 @@
 }
 
 .conteudo-trilhas {
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-between; */
-
     position: relative;
-
 
     background-color: var(--branco);
     width: 400px;
     height: 445px;
 
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin: 40px 0;
     border-radius: 4px;
 }
 
@@ -34,6 +28,8 @@
     width: 330px;
     margin-left: 32px;
     margin-bottom: 16px;
+
+    color: var(--preto);
 }
 
 .link-trilha {
@@ -52,8 +48,6 @@
     border-radius: 4px;
 
     font-size: 14px;
-
-
 }
 
 .link-trilha:hover {
@@ -80,7 +74,30 @@
     .container-elementos-main {
         display: flex;
         flex-direction: column;
+        align-items: center;
 
-        margin: auto;
+        width: 100%;
+    }
+
+    .conteudo-trilhas {
+        width: 350px;
+        height: 480px;
+
+    }
+
+    .titulo-trilha {
+        margin: 16px;
+    }
+
+    .paragrafo-trilha {
+        width: 300px;
+    }
+}
+
+@media(max-width:1279px) {
+    .container-elementos-main {
+        width: 100vw;
+
+        flex-wrap: wrap;
     }
 }

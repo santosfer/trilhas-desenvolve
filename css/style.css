@@ -3,17 +3,12 @@
 
 :root {
     --input: #DB1E8C;
-
     --cor-fonte-input: #FF97D3;
-
     --azul-fundo: #33475B;
-
     --azul-titulo-trilhas: #364372;
-
     --branco: #FFFFFF;
-
     --azul-titulo-principal: #264FEC;
-
+    --preto: #333333;
 }
 
 /* Reset básico --------- */
@@ -73,6 +68,12 @@ header {
 @media(max-width:768px) {
     .container-elementos-header {
         display: flex;
+        gap: 4px;
+        padding: 12px;
+    }
+
+    .label-pesquisa {
+        padding: 2px;
     }
 
     .titulo-principal {
